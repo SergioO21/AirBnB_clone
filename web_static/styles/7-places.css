@@ -18,7 +18,7 @@
     display: inline-block;
 }
 
-.places article > h2 {
+.places h2 {
     font-size: 30px;
     text-align: center;
 }
