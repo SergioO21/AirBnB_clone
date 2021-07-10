@@ -1,5 +1,7 @@
-.places {
-    position: flex;
+.container-article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .places > h1 {
@@ -14,8 +16,6 @@
     margin: 20px;
     border: 1px #FF5A5F solid;
     border-radius: 4px;
-    display: inline-block;
-    align-items: flex-start;
 }
 
 .places h2 {
@@ -49,7 +49,6 @@
     flex-direction: row;
 }
 
-
 .max_guest,
 .number_rooms,
 .number_bathrooms {
@@ -57,11 +56,19 @@
     flex-direction: column;
 }
 
+.max_guest p,
+.number_rooms p,
+.number_bathrooms p {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
 .number_rooms-icon,
 .number_bathrooms-icon,
 .max_guest-icon {
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     width: 100%;
     height: 100%;
 }
