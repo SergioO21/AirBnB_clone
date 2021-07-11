@@ -30,7 +30,7 @@ button:hover {
 }
 
 .locations,
-.amenities {
+.amenities-popover {
     height: 100%;
     width: 25%;
     position: relative;
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .locations:hover .popover,
-.amenities:hover .popover  {
+.amenities-popover:hover .popover  {
     max-height: 400px;
     opacity: 100%;
     padding: 25px 0px 25px 0px;
